@@ -3,3 +3,108 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.contenitore {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenitore.background {
+    background-image:url('./img/background-header.png');
+    background-size: 800px 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* Header - Navigation bar */
+.blue {
+    background-color: #0c325a;
+}
+
+nav {
+    background-color: #0c325a;
+    font-size: 12px;
+}
+
+nav img {
+    width: auto;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+nav li {
+    font-size: 10px;
+    color: white;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+nav .prima-ul {
+    float: left;
+    padding: 25px 5px;
+}
+
+nav .seconda-ul {
+    float: right;
+    padding: 18px 5px;
+}
+
+.seconda-ul .button1 {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.seconda-ul .button2 {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #7fb802;
+}
+
+/* Header - zona titolo */
+.centrale {
+    height: 330px;
+    position: relative;
+}
+
+.testo-centrale {
+    width: 400px;
+    height:100px;
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+.testo-centrale h1 {
+    margin-bottom: 30px;
+}
+
+.testo-centrale .button {
+    background-color: #7fb802;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+}
