@@ -7,6 +7,8 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* INIZIO HEADER */
+
 .clearfix::after {
     content:'';
     display: table;
@@ -27,7 +29,7 @@ body {
     background-position: bottom right;
 }
 
-/* Header - Navigation bar */
+
 .blue {
     background-color: #0c325a;
 }
@@ -82,7 +84,8 @@ nav .seconda-ul {
     background-color: #7fb802;
 }
 
-/* Header - zona titolo */
+/* PARTE CENTRALE HEADER */
+
 .centrale {
     height: 330px;
     position: relative;
@@ -107,4 +110,27 @@ nav .seconda-ul {
     text-decoration: none;
     padding: 15px;
     border-radius: 5px;
+}
+
+/* BANDA GRIGIA */
+
+.grigio {
+    background-color: #d3d3d3;
+}
+
+.testo {
+    text-align: center;
+    padding: 20px;
+}
+
+.testo strong {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.testo p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: grey;
+
 }
