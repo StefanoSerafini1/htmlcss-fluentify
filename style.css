@@ -62,7 +62,7 @@ nav .seconda-ul {
     padding: 18px 5px;
 }
 
-.seconda-ul .button1 {
+.seconda-ul .bottone1 {
     color: white;
     font-size: 10px;
     text-decoration: none;
@@ -72,7 +72,7 @@ nav .seconda-ul {
     border: 1px solid white;
 }
 
-.seconda-ul .button2 {
+.seconda-ul .bottone2 {
     color: white;
     font-size: 10px;
     text-decoration: none;
@@ -100,7 +100,7 @@ nav .seconda-ul {
     margin-bottom: 30px;
 }
 
-.testo-centrale .button {
+.testo-centrale .bottone {
     background-color: #7fb802;
     color: white;
     font-size: 10px;
