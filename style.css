@@ -179,7 +179,7 @@ nav .seconda-ul {
 
 .contenitore-fototesto{
 
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
 
@@ -229,3 +229,72 @@ nav .seconda-ul {
 }
 
 /* FOOTER+ */
+
+footer{
+  width: 100%;
+  background-color: #d3d3d3;
+  height: auto;
+}
+
+.contenitore-footer{
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+  height: auto;
+}
+
+ .testosinistra{
+  float: left;
+  width: 25%;
+  margin-bottom: 30px;
+  background-color: #d3d3d3;
+}
+.tastodestra{
+ float: right;
+ width: auto;
+ margin-bottom: 30px;
+ background-color: #d3d3d3;
+}
+.btg {
+  display: inline-block;
+  float: right;
+  width: auto;
+  margin-left: 10px;
+}
+
+.bottonegrande {
+  padding: 10px;
+  color: white;
+  background-color: #7fb802;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+.tastobasso{
+ float: right;
+ width: auto;
+ margin-bottom: 30px;
+ background-color: #d3d3d3;
+ display: block;
+}
+
+.bottonegrande {
+  padding: 10px;
+  color: white;
+  background-color: #7fb802;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bottonebasso {
+  padding: 10px;
+  color: white;
+  background-color: #7fb802;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+.contenitore-footer-basso{
+  width: 80%;
+}
