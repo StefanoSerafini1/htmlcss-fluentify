@@ -177,6 +177,8 @@ nav .seconda-ul {
     color: grey;
 }
 
+/* main foto e testo */
+
 .contenitore-fototesto{
 
     width: 70%;
@@ -228,7 +230,7 @@ nav .seconda-ul {
   text-align: left;
 }
 
-/* FOOTER+ */
+/* FOOTER */
 
 footer{
   width: 100%;
@@ -297,4 +299,12 @@ footer{
 }
 .contenitore-footer-basso{
   width: 80%;
+}
+
+/* classe riga mezzeria */
+
+.mezzana{
+  width: 90%;
+  margin: auto;
+
 }
