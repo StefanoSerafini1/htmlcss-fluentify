@@ -187,10 +187,9 @@ nav .seconda-ul {
 
 .sezione-s{
   float: left;
-  width: 40%;
+  width: 50%;
   text-align: left;
   position: relative;
-  margin-right: 20px;
 }
 
 
@@ -214,9 +213,8 @@ nav .seconda-ul {
   text-align: right;
 }
 
-.sezione-d img {
-  width: 55%;
-  padding-top: 30px;
+.sezione-s img {
+  width: 80%;
   }
 
 .clearfix::after {
@@ -229,3 +227,5 @@ nav .seconda-ul {
   display: block;
   text-align: left;
 }
+
+/* FOOTER+ */
